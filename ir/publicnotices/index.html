@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電子公告 - 株式会社mux</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+        .notice-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .notice-item {
+            background-color: var(--light-accent);
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        .notice-date {
+            font-weight: bold;
+            color: var(--dark-accent);
+        }
+        .notice-title {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+        }
+        .notice-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: var(--main-color);
+            text-decoration: none;
+        }
+        .notice-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="../../img/logo.png" alt="株式会社mux ロゴ" class="logo">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">ホーム</a></li>
+                <li><a href="../../index.html#services">サービス</a></li>
+                <li><a href="../../index.html#ceo-message">代表メッセージ</a></li>
+                <li><a href="../../index.html#company-overview">会社概要</a></li>
+                <li><a href="../../index.html#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="electronic-notice">
+            <h1>電子公告</h1>
+            <p>株式会社muxの電子公告ページです。当社に関する重要なお知らせや法令に基づく公告を掲載しています。</p>
+            
+            <ul class="notice-list">
+                <li class="notice-item">
+                    <div class="notice-date">2025年8月1日</div>
+                    <div class="notice-title">第1期決算公告</div>
+                    <a href="#" class="notice-link">PDFで表示</a>
+                </li>
+                <li class="notice-item">
+                    <div class="notice-date">2025年4月1日</div>
+                    <div class="notice-title">株主総会招集通知</div>
+                    <a href="#" class="notice-link">PDFで表示</a>
+                </li>
+                <li class="notice-item">
+                    <div class="notice-date">2025年1月15日</div>
+                    <div class="notice-title">臨時株主総会招集通知</div>
+                    <a href="#" class="notice-link">PDFで表示</a>
+                </li>
+            </ul>
+
+            <p>
+                ※ PDFファイルをご覧いただくには、Adobe Acrobat Readerが必要です。<br>
+                お持ちでない方は<a href="https://get.adobe.com/jp/reader/" target="_blank" rel="noopener noreferrer">こちら</a>からダウンロードしてください。
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 株式会社mux All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
