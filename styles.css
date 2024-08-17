@@ -234,6 +234,11 @@ nav ul li a:hover {
     padding-left: 1.5rem;
 }
 
+.company-name-furigana {
+    font-size: 0.8em;
+    color: #666;
+}
+
 /* Footer styles */
 footer {
     background-color: var(--bg-dark);
@@ -317,6 +322,11 @@ footer {
 
     .company-info-table td {
         border-top: none;
-        padding: 0.5rem;
+        padding: 0.75rem 0.5rem;
+    }
+   
+    .company-name-furigana {
+        display: block;
+        margin-top: 0.3rem;
     }
 }
